@@ -40,7 +40,6 @@ void setup() {
   // Add ESP32 #2 as peer
   esp_now_peer_info_t peerInfo = {};
   memcpy(peerInfo.peer_addr, receiverAddress, 6);
-  //memcpy(peerInfo.peer_addr, receiverAddress2, 6);
   peerInfo.channel = 0;
   peerInfo.encrypt = false;
   if (esp_now_add_peer(&peerInfo) != ESP_OK) {
