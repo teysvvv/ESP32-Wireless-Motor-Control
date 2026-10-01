@@ -47,9 +47,7 @@ void setup() {
     return;
   }
   Serial.println();
-  Serial.println("==============================");
   Serial.println("ESP32 #1 JOYSTICK TRANSMITTER");
-  Serial.println("==============================");
   Serial.println("READY!");
 }
 
